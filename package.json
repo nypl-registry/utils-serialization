@@ -1,0 +1,26 @@
+{
+  "name": "nypl-registry-utils-serialization",
+  "version": "1.0.0",
+  "description": "Reusable methods for serialization",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nypl-registry/utils-serialization.git"
+  },
+  "keywords": [
+    "nypl-registry"
+  ],
+  "author": "matt miller <thisismattmiller@gmail.com> (http://twitter.com/thisismmiller)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nypl-registry/utils-serialization/issues"
+  },
+  "homepage": "https://github.com/nypl-registry/utils-serialization",
+  "dependencies": {
+    "node-uuid": "^1.4.7",
+    "nypl-registry-utils-database": "nypl-registry/utils-database"
+  }
+}
