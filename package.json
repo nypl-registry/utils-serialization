@@ -21,6 +21,12 @@
   "homepage": "https://github.com/nypl-registry/utils-serialization",
   "dependencies": {
     "node-uuid": "^1.4.7",
-    "nypl-registry-utils-database": "nypl-registry/utils-database"
+    "nypl-registry-utils-database": "nypl-registry/utils-database",
+    "nypl-registry-utils-normalize" : "nypl-registry/utils-normalize"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.0",
+    "standard": "^6.0.8"
   }
 }
